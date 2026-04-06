@@ -10,4 +10,8 @@ This repository records my personally favourite developer tools and configuratio
 6. [LazyVim](https://www.lazyvim.org/)
 
 # Install
-
+## LazyVim
+Soft link my configurations to ~/.config/nvim. ** Remember to replace the prefix folder path **
+```bash
+ln -sfn /Users/oliver/dotfile/LazyVim /Users/oliver/.config/nvim
+```
