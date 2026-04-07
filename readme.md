@@ -10,8 +10,10 @@ This repository records my personally favourite developer tools and configuratio
 6. [LazyVim](https://www.lazyvim.org/)
 
 # Install
-## LazyVim
-Soft link my configurations to ~/.config/nvim. **Remember to replace my home path to yours**
+Soft link my configurations to ~/.config/nvim. 
 ```bash
-ln -sfn /Users/oliver/dotfile/LazyVim /Users/oliver/.config/nvim
+git clone https://github.com/OliverViola/dotfile.git
+ln -sfn $(pwd)/dotfile/LazyVim ~/.config/nvim
+ln -sfn $(pwd)/dotfile/tmux/.tmux.conf ~/.tmux.conf
+ln -sfn $(pwd)/dotfile/tmux/.tmux.conf.local ~/.tmux.conf.local
 ```
