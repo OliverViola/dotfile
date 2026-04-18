@@ -14,3 +14,5 @@ vim.opt.breakindent = true
 -- 允许 Neovim 访问系统剪贴板
 vim.opt.clipboard = "unnamedplus"
 -- vim.g.clipboard = "tmux"
+
+vim.opt.winbar = "%=%m %f"
