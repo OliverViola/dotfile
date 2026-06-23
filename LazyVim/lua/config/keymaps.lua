@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 local map = vim.keymap.set
 
-map({ "i", "v" }, "jk", "<esc>", { desc = "Return to Normal Mode" })
+map({ "i" }, "jk", "<esc>", { desc = "Return to Normal Mode" })
